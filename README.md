@@ -56,17 +56,18 @@ https://www.mongodb.com/
 ## Acceso al proyecto:
 ### pasos
 <p>
-1. Clonar el ```.env.template``` y renombrarlo a ```.env```
 
-2. Llenar las variables de entrorno acorde
+1. en la teminal correr ```code .```
 
+2. para levantar el servidor correr npm run start```
 
+3. Clonar el  ```.env.template```  y renombrarlo a  ```.env``` 
 
-3. Backend en Nest
+4. Llenar las variables de entrorno acorde
 
-```
-doker compose ud -d
-```
+5. Backend en Nest
+
+ ```doker compose ud -d```
 
 </p>
 
