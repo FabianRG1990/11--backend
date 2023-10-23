@@ -67,7 +67,11 @@ https://www.mongodb.com/
 
 5. Backend en Nest
 
- ```doker compose ud -d```
+ ```docker compose up -d```
+
+ 6. correr 
+
+ ```npm start```
 
 </p>
 
@@ -77,5 +81,5 @@ nestjs/core": "^10.0.0"
 
 mongoose: "^7.6.3",
 
-Docker: "4.21.1"
+Docker: "4.24.2"
 </p>
