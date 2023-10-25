@@ -59,7 +59,7 @@ https://www.mongodb.com/
 
 1. en la teminal correr ```code .```
 
-2. para levantar el servidor correr npm run start```
+2. para levantar el servidor correr ```npm run start:dev```
 
 3. Clonar el  ```.env.template```  y renombrarlo a  ```.env``` 
 
@@ -68,10 +68,6 @@ https://www.mongodb.com/
 5. Backend en Nest
 
  ```docker compose up -d```
-
- 6. correr 
-
- ```npm start```
 
 </p>
 

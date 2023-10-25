@@ -10,6 +10,8 @@ export class AuthController {
 
   @Post()
   create(@Body() createUserDto: CreateUserDto) {
+    console.log();
+    
     return this.authService.create(createUserDto);
   }
 

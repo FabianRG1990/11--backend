@@ -12,7 +12,7 @@ import { User, UserSchema } from './entities/user.entity';
     MongooseModule.forFeature([
       {
         name: User.name,
-        schema: UserSchema,
+        schema: UserSchema
       }
     ])
   ],
