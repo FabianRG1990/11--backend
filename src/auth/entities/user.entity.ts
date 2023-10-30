@@ -6,6 +6,8 @@ export class User {
 
     // _id: string; == esto es algo que le va a incluir mongoDb
 
+    _id?: string;
+
     @Prop({ unique: true, required: true })
     email: string;
 
