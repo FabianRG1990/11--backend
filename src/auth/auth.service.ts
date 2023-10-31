@@ -83,6 +83,13 @@ export class AuthService {
   findAll(): Promise<UnauthorizedException[]> {
     return this.userModel.find();
   }
+
+  async findUserById( userId: string ){
+    const user = await this.userModel.findById(userId);
+    const {password, ...rest} = user.toJSON();
+
+    return rest
+  }
   
   findOne(id: number) {
     return `This action returns a #${id} auth`;
