@@ -80,8 +80,8 @@ export class AuthService {
     }
   }
   
-  findAll() {
-    return `This action returns all auth`;
+  findAll(): Promise<UnauthorizedException[]> {
+    return this.userModel.find();
   }
   
   findOne(id: number) {
