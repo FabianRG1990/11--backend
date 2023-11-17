@@ -67,8 +67,9 @@ https://www.mongodb.com/
 
 5. Backend en Nest
 
- ```docker compose up -d```
-
+```
+docker compose up -d
+```
 </p>
 
 ## tecnologias usadas:
